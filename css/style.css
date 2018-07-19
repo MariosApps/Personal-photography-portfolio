@@ -10,6 +10,7 @@ body {
     background-color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    padding-top: 40px;
 }
 
 .wrapper {
@@ -96,7 +97,7 @@ h2 {
 
 /*------MAIN PAGE-------*/
 
-.col {
+.header .col {
     padding: 0;
 }
 
@@ -131,6 +132,8 @@ h2 {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+
+
 
 /*------FOOTER-------*/
 
@@ -186,3 +189,20 @@ h2 {
 .form-group {
     margin-bottom: 30px;
 }
+
+/*------GALLERY-------*/
+
+.gallery .container-fluid {
+    max-width: 1400px;
+}
+
+.gallery {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.gallery-image {
+    padding: 15px;
+}
+
+
