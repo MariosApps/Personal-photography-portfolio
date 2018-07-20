@@ -95,6 +95,12 @@ h2 {
     margin-top: -1px;
 }
 
+.dropdown-submenu,
+.dropdown-menu {
+    border: none;
+}
+
+
 /*------MAIN PAGE-------*/
 
 .header .col {
